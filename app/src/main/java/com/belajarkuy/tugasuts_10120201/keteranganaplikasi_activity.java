@@ -1,3 +1,5 @@
+//10120201 - Ilham Ramdhan Putra Lesmana - IF5
+
 package com.belajarkuy.tugasuts_10120201;
 
 /*
@@ -40,7 +42,7 @@ public class keteranganaplikasi_activity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.keteranganaplikasi);
+		setContentView(R.layout.fragment_keteranganaplikasi);
 
 		
 		_bg__keteranganaplikasi_ek2 = (View) findViewById(R.id._bg__keteranganaplikasi_ek2);

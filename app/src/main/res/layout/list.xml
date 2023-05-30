@@ -1,3 +1,4 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
@@ -126,7 +127,7 @@
 							>
 
 							<ImageView android:id="@+id/vector"
-								android:src="@drawable/vector"
+								android:src="@drawable/vector5"
 								android:contentDescription="vector"
 								 android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
@@ -161,7 +162,7 @@
 							>
 
 							<ImageView android:id="@+id/vector_ek1"
-								android:src="@drawable/vector_ek1"
+								android:src="@drawable/vector6"
 								android:contentDescription="vector_ek1"
 								 android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
@@ -198,7 +199,7 @@
 						>
 
 						<ImageView android:id="@+id/vector_ek2"
-							android:src="@drawable/vector_ek2"
+							android:src="@drawable/vector4"
 							android:contentDescription="vector_ek2"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
@@ -233,7 +234,7 @@
 						>
 
 						<ImageView android:id="@+id/vector_ek3"
-							android:src="@drawable/vector_ek3"
+							android:src="@drawable/vector2"
 							android:contentDescription="vector_ek3"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
@@ -251,8 +252,8 @@
 						>
 
 						<ImageView android:id="@+id/vector_ek4"
-							android:src="@drawable/vector_ek4"
-							android:contentDescription="vector_ek4"
+							android:src="@drawable/vector1"
+							android:contentDescription="vector1"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="40dp"
@@ -269,8 +270,8 @@
 						>
 
 						<ImageView android:id="@+id/vector_ek5"
-							android:src="@drawable/vector_ek5"
-							android:contentDescription="vector_ek5"
+							android:src="@drawable/vector3"
+							android:contentDescription="vector3"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="40dp"

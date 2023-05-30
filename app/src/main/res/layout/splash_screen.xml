@@ -1,3 +1,4 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
@@ -47,25 +48,20 @@
 					android:layout_height="wrap_content"
 					>
 
-					<View   android:id="@+id/tombolmulai"
+					<Button
+						android:id="@+id/tombolmulai"
 						android:background="@drawable/tombolmulai_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="234dp"
-						android:layout_height="50dp" />
-
-					<TextView android:id="@+id/labelmulai"
 						android:fontFamily="@font/krub_semibold"
 						android:layout_gravity="center_horizontal|center"
 						android:gravity="center"
 						android:textSize="20sp"
 						android:textColor="@color/labelmulai_color"
-						android:layout_marginLeft="-3dp"
-						android:layout_marginTop="-9dp"
-						android:layout_width="249dp"
-						android:layout_height="64dp"
-						android:text="@string/labelmulai_string"
-						 />
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="234dp"
+						android:layout_height="50dp"
+						android:text="Mulai"/>
+
 
 				</RelativeLayout>
 

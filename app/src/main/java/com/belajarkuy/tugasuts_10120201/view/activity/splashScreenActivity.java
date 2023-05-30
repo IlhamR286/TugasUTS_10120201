@@ -1,6 +1,6 @@
 //10120201 - Ilham Ramdhan Putra Lesmana - IF5
 
-package com.belajarkuy.tugasuts_10120201;
+package com.belajarkuy.tugasuts_10120201.view.activity;
 
 /*
 	 *	This content is generated from the API File Info.
@@ -15,25 +15,24 @@ package com.belajarkuy.tugasuts_10120201;
 	 *	@generator 	Export Kit v1.3.figma
 	 *
 	 */
-	
+
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-
-
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.ImageView;
+import android.widget.TextView;
 
-import com.belajarkuy.tugasuts_10120201.view.activity.MainActivity;
+import com.belajarkuy.tugasuts_10120201.R;
 
-public class splash_screen_activity extends Activity {
+public class splashScreenActivity extends Activity {
 
 	
 	private View _bg__splash_screen_ek2;
-	private Button tombolmulai;
+	private View tombolmulai;
+	private TextView labelmulai;
 	private ImageView __img_gambar1;
 	private TextView selamat_datang_di_tulis;
 	private TextView melakukan_tugas_harian_dengan_tulis;
@@ -55,9 +54,14 @@ public class splash_screen_activity extends Activity {
 	
 		
 		//custom code goes here
-
-		}
-	
+		tombolmulai.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(splashScreenActivity.this, MainActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
+}
 	
 	
